@@ -4,6 +4,20 @@ const ArrowUpRight = () => (
   </svg>
 );
 
+const MailIcon = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="3.5" y="5" width="17" height="14" rx="2.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+    <path d="m5 7 7 5.5L19 7" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const WhatsAppIcon = () => (
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.4 11.7a8.4 8.4 0 0 1-12.5 7.3L4 20l1-3.8A8.4 8.4 0 1 1 20.4 11.7Z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M9.1 8.2c.2-.4.4-.4.7-.4h.4c.1 0 .3 0 .4.3l.8 1.8c.1.3.1.4 0 .6l-.6.8c-.2.2-.2.4 0 .6.6 1 1.4 1.8 2.4 2.4.2.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.3.4.5 0 .5-.2 1.5-1 2-.5.4-1.2.7-2.1.7-1 0-2.5-.5-4.2-1.9-2-1.7-3.3-3.8-3.4-5.3 0-.7.2-1.3.5-1.8Z" fill="currentColor" />
+  </svg>
+);
+
 const pricing = [
   {
     name: 'Starter',
@@ -112,7 +126,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="contactSection" id="contact"><div className="shell contactInner"><span className="sectionIndex">03 / CONTACT</span><div className="contactCopy"><p className="statementKicker">Have something in mind?</p><h2>Let's build something worth looking at.</h2></div><a className="contactButton" href="mailto:hello@sussexsiteco.co.uk"><span>hello@sussexsiteco.co.uk</span><ArrowUpRight /></a></div></section>
+      <section className="contactSection" id="contact">
+        <div className="shell contactInner">
+          <span className="sectionIndex">03 / CONTACT</span>
+          <div className="contactCopy"><p className="statementKicker">Have something in mind?</p><h2>Let's build something worth looking at.</h2></div>
+          <div className="contactActions" aria-label="Contact options">
+            <a className="contactIconButton emailContact" href="mailto:hello@sussexsiteco.co.uk" aria-label="Email Sussex Site Co." title="Email Sussex Site Co."><MailIcon /><span>Email</span></a>
+            <a className="contactIconButton whatsappContact" href="https://wa.me/447902760832" target="_blank" rel="noreferrer" aria-label="Message Sussex Site Co. on WhatsApp" title="WhatsApp Sussex Site Co."><WhatsAppIcon /><span>WhatsApp</span></a>
+          </div>
+        </div>
+      </section>
       <footer className="siteFooter"><div className="shell footerInner"><a className="brand" href="#top"><span className="brandMark">S</span><span className="brandText">Sussex Site Co.</span></a><p>Independent web studio in Sussex.</p><span>© 2026 Sussex Site Co.</span></div></footer>
     </main>
   );
