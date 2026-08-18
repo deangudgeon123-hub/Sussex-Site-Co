@@ -1,5 +1,3 @@
-import Spline from '@splinetool/react-spline/next';
-
 const ArrowUpRight = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
     <path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -28,7 +26,14 @@ export default function Home() {
           </div>
           <div className="robotStage" aria-label="Interactive 3D robot">
             <div className="robotHalo" />
-            <div className="splineWrap"><Spline scene="https://prod.spline.design/No6RmjQsiHFkVSvz/scene.splinecode" /></div>
+            <div className="splineWrap">
+              <iframe
+                src="https://my.spline.design/nexbotrobotcharacterconcept-LYLVIDAOw4pCqxfsUfIVBWUo/"
+                title="Interactive Nexbot robot"
+                allow="autoplay; fullscreen"
+                style={{ width: '100%', height: '100%', border: 0, display: 'block', background: 'transparent' }}
+              />
+            </div>
             <div className="stageBadge stageBadgeTop"><span>Interactive</span><strong>3D experiences</strong></div>
             <div className="stageBadge stageBadgeBottom"><span className="statusDot" />Built for the modern web</div>
           </div>
