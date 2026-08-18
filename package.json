@@ -16,8 +16,8 @@
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
-    "eslint-config-next": "15.4.7",
-    "next": "15.4.7",
+    "eslint-config-next": "15.5.21",
+    "next": "15.5.21",
     "react": "^19.0.0-rc-6d3110b4d9-20240531",
     "react-dom": "^19.0.0-rc-6d3110b4d9-20240531",
     "typescript": "5.2.2"
