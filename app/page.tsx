@@ -45,7 +45,18 @@ export default function Home() {
       </section>
       <section className="placeholderSection" id="about">
         <div className="shell placeholderGrid">
-          <article className="placeholderCard largeCard"><span className="cardNumber">01</span><div><span className="cardEyebrow">Selected work</span><h3>Projects will live here.</h3><p>Case studies, experiments and client builds — ready for us to plug in once the core brand is locked.</p></div></article>
+          <article className="placeholderCard largeCard projectsCard">
+            <div className="projectsParticle" aria-hidden="true">
+              <iframe
+                src="https://my.spline.design/particles-aG1DnvAZVUlyLTdDX3tVXUTb/"
+                title="Interactive particle field"
+                allow="autoplay; fullscreen"
+              />
+            </div>
+            <div className="projectsShade" />
+            <span className="cardNumber projectsContent">01</span>
+            <div className="projectsContent"><span className="cardEyebrow">Selected work</span><h3>Projects will live here.</h3><p>Case studies, experiments and client builds — ready for us to plug in once the core brand is locked.</p></div>
+          </article>
           <article className="placeholderCard"><span className="cardNumber">02</span><div><span className="cardEyebrow">The studio</span><h3>Small studio. Big ideas.</h3><p>A flexible home for the story behind Sussex Site Co. and how we work.</p></div></article>
           <article className="placeholderCard accentCard"><span className="cardNumber">03</span><div><span className="cardEyebrow">Next up</span><h3>Services & pricing.</h3><p>We'll build these out after the visual foundation and customer journey are right.</p></div></article>
         </div>
