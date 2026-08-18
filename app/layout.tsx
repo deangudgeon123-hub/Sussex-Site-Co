@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://sussexsiteco.co.uk'),
   title: { default: 'Sussex Site Co. | Web Design & Development', template: '%s | Sussex Site Co.' },
-  description: 'Independent web studio creating modern, high-impact websites for businesses in Sussex and beyond.',
+  description: 'Independent web studio creating modern, high impact websites for businesses in Sussex and beyond.',
   openGraph: {
     title: 'Sussex Site Co.',
     description: 'Modern websites for businesses that refuse to blend in.',
