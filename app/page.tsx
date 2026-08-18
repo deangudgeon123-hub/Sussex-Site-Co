@@ -8,14 +8,14 @@ const pricing = [
   {
     name: 'Starter',
     price: '£499',
-    note: 'A sharp one-page presence for smaller businesses, launches and simple ideas.',
-    detail: 'One-page website',
+    note: 'A sharp one page presence for smaller businesses, launches and simple ideas.',
+    detail: 'One page website',
   },
   {
     name: 'Business',
     price: '£795',
-    note: 'A polished multi-page website built around your business, brand and customers.',
-    detail: 'Typically 4–6 pages',
+    note: 'A polished multi page website built around your business, brand and customers.',
+    detail: 'Typically 4 to 6 pages',
     featured: true,
   },
   {
@@ -25,7 +25,7 @@ const pricing = [
     detail: 'Bespoke scope',
   },
   {
-    name: 'E-commerce',
+    name: 'Ecommerce',
     price: '£1,500',
     note: 'Online stores designed to make products look good and the buying journey feel simple.',
     detail: 'Store builds',
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="heroCopy">
             <div className="eyebrow"><span className="pulseDot" />Independent web studio · Sussex</div>
             <h1>Websites that<span> refuse to blend in.</span></h1>
-            <p className="heroLead">Modern, high-impact websites for businesses that want to look as good online as they are in real life.</p>
+            <p className="heroLead">Modern, high impact websites for businesses that want to look as good online as they are in real life.</p>
             <div className="heroActions"><a className="primaryButton" href="#contact">Build something great<ArrowUpRight /></a><a className="textButton" href="#about">Explore the studio</a></div>
             <div className="heroMeta"><div><span className="metaLabel">Based in</span><strong>West Sussex, UK</strong></div><span className="metaDivider" /><div><span className="metaLabel">Focus</span><strong>Design + Development</strong></div></div>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <div className="projectsShade" />
             <span className="cardNumber projectsContent">01</span>
-            <div className="projectsContent"><span className="cardEyebrow">Selected work</span><h3>Projects will live here.</h3><p>Case studies, experiments and client builds — ready for us to plug in once the core brand is locked.</p></div>
+            <div className="projectsContent"><span className="cardEyebrow">Selected work</span><h3>Projects will live here.</h3><p>Case studies, experiments and client builds, ready for us to plug in once the core brand is locked.</p></div>
           </article>
           <article className="placeholderCard"><span className="cardNumber">02</span><div><span className="cardEyebrow">The studio</span><h3>Small studio. Big ideas.</h3><p>Local, flexible and focused on building sites that feel considered rather than copied.</p></div></article>
           <article className="placeholderCard accentCard"><span className="cardNumber">03</span><div><span className="cardEyebrow">Built differently</span><h3>Design that earns attention.</h3><p>Clean foundations with room for interactive details, animation and ideas that make a business memorable.</p></div></article>
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="shell">
           <div className="pricingIntro">
             <span className="sectionIndex">02 / PRICES</span>
-            <div><p className="statementKicker">Simple starting points.</p><h2>Good websites don’t need agency-sized budgets.</h2><p>Every project is different, so these are starting prices rather than rigid packages. We also run launch offers and limited promotions throughout the year.</p></div>
+            <div><p className="statementKicker">Simple starting points.</p><h2>Good websites don’t need agency sized budgets.</h2><p>Every project is different, so these are starting prices rather than rigid packages. We also run launch offers and limited promotions throughout the year.</p></div>
           </div>
           <div className="pricingGrid">
             {pricing.map((item) => (
@@ -108,7 +108,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <div className="promoStrip"><span className="pulseDot" /><strong>Offers happen.</strong><span>Keep an eye on our socials or get in touch — we’ll regularly run introductory and local-business promotions.</span></div>
+          <div className="promoStrip"><span className="pulseDot" /><strong>Offers happen.</strong><span>Keep an eye on our socials or get in touch, we’ll regularly run introductory and local business promotions.</span></div>
         </div>
       </section>
 
