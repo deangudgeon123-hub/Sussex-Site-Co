@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="projectsShade" />
             <span className="cardNumber projectsContent">01</span>
-            <div className="projectsContent"><span className="cardEyebrow">Selected work</span><h3>Projects will live here.</h3><p>Case studies, experiments and client builds, ready for us to plug in once the core brand is locked.</p></div>
+            <div className="projectsContent"><span className="cardEyebrow">Selected work</span><h3>Fresh work is on the way.</h3><p>New client projects and creative builds will be added here as the studio grows.</p></div>
           </article>
           <article className="placeholderCard"><span className="cardNumber">02</span><div><span className="cardEyebrow">The studio</span><h3>Small studio. Big ideas.</h3><p>Local, flexible and focused on building sites that feel considered rather than copied.</p></div></article>
           <article className="placeholderCard accentCard"><span className="cardNumber">03</span><div><span className="cardEyebrow">Built differently</span><h3>Design that earns attention.</h3><p>Clean foundations with room for interactive details, animation and ideas that make a business memorable.</p></div></article>
