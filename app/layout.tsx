@@ -3,6 +3,7 @@ import './projects.css';
 import type { Metadata } from 'next';
 
 const siteUrl = 'https://sussexsiteco.co.uk';
+const socialPreviewImage = 'https://raw.githubusercontent.com/deangudgeon123-hub/Sussex-Site-Co/main/public%3Asocial-preview.png.PNG';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -21,11 +22,20 @@ export const metadata: Metadata = {
     siteName: 'Sussex Site Co.',
     locale: 'en_GB',
     type: 'website',
+    images: [
+      {
+        url: socialPreviewImage,
+        width: 1200,
+        height: 630,
+        alt: 'Sussex Site Co. Web Design in West Sussex',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sussex Site Co. | Web Design in West Sussex',
     description: 'Modern websites for businesses that refuse to blend in.',
+    images: [socialPreviewImage],
   },
   robots: {
     index: true,
