@@ -5,10 +5,16 @@ import { createPortal } from 'react-dom';
 
 const portfolioItems = [
   {
-    title: 'Print Studio Concept',
+    title: 'The Printing Press',
     type: 'Website redesign',
-    description: 'A modern redesign concept for a local print business.',
-    href: 'https://graham-press-website.vercel.app/',
+    description: 'A modern print business website focused on clearer services, stronger presentation and an easier customer journey.',
+    href: 'https://the-printing-press-website.vercel.app/',
+  },
+  {
+    title: 'Straight to the Flooring',
+    type: 'Business website',
+    description: 'A clean local business website designed to showcase flooring services and make it easy for customers to get in touch.',
+    href: 'https://www.straight-to-the-flooring.co.uk/',
   },
 ];
 
