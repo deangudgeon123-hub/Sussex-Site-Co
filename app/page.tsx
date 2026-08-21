@@ -6,6 +6,20 @@ const ArrowUpRight = () => (
   </svg>
 );
 
+const LogoMark = () => (
+  <svg className="brandLogoMark" viewBox="0 0 64 64" aria-hidden="true">
+    <defs>
+      <linearGradient id="sussexLogoGradient" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#c8b8ff" />
+        <stop offset=".48" stopColor="#9d7cff" />
+        <stop offset="1" stopColor="#7248ff" />
+      </linearGradient>
+    </defs>
+    <path d="M32 5 54 18v28L32 59 10 46V18L32 5Z" fill="none" stroke="url(#sussexLogoGradient)" strokeWidth="5" strokeLinejoin="round" />
+    <path d="M43.5 21.5H28.8L20 27l12 7 11.5 6.5L35 46H20.5" fill="none" stroke="url(#sussexLogoGradient)" strokeWidth="5" strokeLinecap="square" strokeLinejoin="round" />
+  </svg>
+);
+
 const MailIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
     <rect x="3.5" y="5" width="17" height="14" rx="2.5" fill="none" stroke="currentColor" strokeWidth="1.8" />
@@ -56,7 +70,7 @@ export default function Home() {
         <div className="heroGlow heroGlowTwo" />
         <div className="gridTexture" />
         <header className="siteHeader shell">
-          <a className="brand" href="#top" aria-label="Sussex Site Co. home"><span className="brandMark">S</span><span className="brandText">Sussex Site Co.</span></a>
+          <a className="brand" href="#top" aria-label="Sussex Site Co. home"><span className="brandMark"><LogoMark /></span><span className="brandText">Sussex Site Co.</span></a>
           <nav className="desktopNav" aria-label="Primary navigation"><a href="#about">About</a><a href="#prices">Prices</a><a href="#contact">Contact</a></nav>
           <a className="headerCta" href="#contact">Start a project<ArrowUpRight /></a>
         </header>
@@ -138,7 +152,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="siteFooter"><div className="shell footerInner"><a className="brand" href="#top"><span className="brandMark">S</span><span className="brandText">Sussex Site Co.</span></a><p>Independent web studio in Sussex.</p><span>© 2026 Sussex Site Co.</span></div></footer>
+      <footer className="siteFooter"><div className="shell footerInner"><a className="brand" href="#top"><span className="brandMark"><LogoMark /></span><span className="brandText">Sussex Site Co.</span></a><p>Independent web studio in Sussex.</p><span>© 2026 Sussex Site Co.</span></div></footer>
     </main>
   );
 }
